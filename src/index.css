@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #242424;
+  color: #fff;
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: cursive;
+}
+
+header {
+  margin: 2rem 0;
+  .title {
+    color: #ff5a78;
+    font-size: 64px;
+  }
+}

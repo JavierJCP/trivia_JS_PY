@@ -1,0 +1,412 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál de las siguientes declaraciones es verdadera sobre las listas en Python?",
+    "code": "mi_lista = [1, 2, 3, 4]",
+    "answers": [
+      "Las listas son inmutables.",
+      "Los elementos de una lista deben ser del mismo tipo de datos.",
+      "Los elementos de una lista están ordenados y son mutables.",
+      "Las listas no pueden contener otros objetos."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es la función en Python para calcular la longitud de una lista?",
+    "code": "mi_lista = [1, 2, 3, 4, 5]",
+    "answers": ["length()", "count()", "len()", "size()"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "x = 5\ny = 2\nresultado = x // y",
+    "answers": ["2", "2.5", "3", "0"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cuál es la salida de este código en Python?",
+    "code": "mi_string = 'Hola Mundo'\nprint(mi_string[4:7])",
+    "answers": ["'Mu'", "'Mund'", "'ndo'", "'Mundo'"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 5,
+    "question": "¿Cuál es el resultado de esta expresión en Python?",
+    "code": "2 ** 3",
+    "answers": ["6", "8", "9", "5"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 6,
+    "question": "¿Qué tipo de variable es `mi_variable` en Python?",
+    "code": "mi_variable = 42",
+    "answers": ["Entero", "Cadena", "Flotante", "Variable"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Cuál es la función en Python para ingresar datos desde el teclado?",
+    "code": "respuesta = input('Ingrese su nombre: ')",
+    "answers": ["get_input()", "read_input()", "input()", "user_input()"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 8,
+    "question": "¿Cuál es la manera correcta de comentar varias líneas en Python?",
+    "code": "Este es un comentario",
+    "answers": [
+      "// Comentario",
+      "/* Comentario */",
+      "-- Comentario",
+      "''' Comentario '''"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 9,
+    "question": "¿Qué tipo de bucle se utiliza para recorrer elementos en una lista en Python?",
+    "code": "for elemento in lista:\n    print(elemento)",
+    "answers": ["while loop", "repeat loop", "do-while loop", "for loop"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 10,
+    "question": "¿Cuál es la forma correcta de definir una función en Python?",
+    "code": "def mi_funcion():\n    # Código de la función",
+    "answers": [
+      "function mi_funcion():",
+      "def function mi_funcion():",
+      "method mi_funcion():",
+      "def mi_funcion():"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 11,
+    "question": "¿Cuál es el resultado de esta expresión booleana en Python?",
+    "code": "5 > 3 and 2 < 7",
+    "answers": ["True", "False", "None", "Error de sintaxis"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Cuál es el resultado de la siguiente operación en Python?",
+    "code": "abs(-10)",
+    "answers": ["-10", "10", "0", "None"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 13,
+    "question": "¿Cuál es el valor de la variable `x` después de ejecutar este código en Python?",
+    "code": "x = 5\nx += 3",
+    "answers": ["5", "3", "8", "15"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 14,
+    "question": "¿Qué tipo de datos es la variable `mi_lista` en Python?",
+    "code": "mi_lista = [1, 2, 3, 4, 5]",
+    "answers": ["Entero", "Cadena", "Lista", "Flotante"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 15,
+    "question": "¿Qué imprimirá este código en Python?",
+    "code": "for i in range(3):\n    print(i)",
+    "answers": ["0, 1, 2", "1, 2, 3", "3, 2, 1", "0, 1, 3"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Cuál es la salida de este código en Python?",
+    "code": "print('Hola' + ' ' + 'Mundo')",
+    "answers": [
+      "'HolaMundo'",
+      "'Hola Mundo'",
+      "'Hola + Mundo'",
+      "'Hola' ' ' 'Mundo'"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 17,
+    "question": "¿Qué método se utiliza para agregar un elemento al final de una lista en Python?",
+    "code": "mi_lista = [1, 2, 3]\n",
+    "answers": ["add()", "insert()", "extend()", "append()"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 18,
+    "question": "¿Cuál es la función que se utiliza para abrir un archivo en modo de lectura en Python?",
+    "code": "archivo = ?('datos.txt', 'r')",
+    "answers": ["read()", "open()", "load()", "file_open()"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 19,
+    "question": "¿Cuál es el resultado de esta operación en Python?",
+    "code": "resultado = 10 / 3",
+    "answers": ["3", "3.3333333333333335", "3.0", "3.0"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 20,
+    "question": "¿Cuál es el valor de la variable `mi_diccionario['clave']` en Python?",
+    "code": "mi_diccionario = {'clave': 'valor'}",
+    "answers": ["'clave'", "'valor'", "'clave: valor'", "'valor'"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 21,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "x = 5\ny = 3\nresultado = x % y",
+    "answers": ["0", "1", "2", "3"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 22,
+    "question": "¿Cuál es el tipo de datos de `numeros` en Python?",
+    "code": "numeros = (1, 2, 3)",
+    "answers": ["Lista", "Cadena", "Tupla", "Diccionario"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 23,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "mi_lista = [1, 2, 3, 4, 5]\nmi_lista.remove(3)",
+    "answers": [
+      "[1, 2, 4, 5]",
+      "[1, 2, 3, 4, 5]",
+      "[1, 2, 4, 5, 3]",
+      "[1, 2, 4, 5] [3]"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Cuál es la función en Python para obtener el valor mínimo en una lista?",
+    "code": "mi_lista = [4, 2, 7, 1, 9]",
+    "answers": ["min()", "minimum()", "max()", "smallest()"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "x = 2\ny = 3\nresultado = x ** y",
+    "answers": ["6", "8", "25", "9"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 26,
+    "question": "¿Qué imprimirá este código en Python?",
+    "code": "mi_string = 'Hola Mundo'\nprint(mi_string[::-1])",
+    "answers": ["'odnuM aloH'", "'Hola Mundo'", "'odnuM Hola'", "'aloH odnuM'"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "x = 5\ny = 2\nresultado = x / y",
+    "answers": ["1.6666666666666667", "2", "1.5", "2.0"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Qué tipo de variable es `mi_variable` en Python?",
+    "code": "mi_variable = 'Python'",
+    "answers": ["Entero", "Cadena", "Flotante", "Booleano"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 29,
+    "question": "¿Cuál es la función en Python que se utiliza para dividir una cadena en una lista de palabras?",
+    "code": "mi_string = 'Esto es una cadena'",
+    "answers": ["parse()", "explode()", "split()", "divide()"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 30,
+    "question": "¿Cuál es el resultado de esta expresión en Python?",
+    "code": "True or False",
+    "answers": ["True", "False", "None", "True"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Cuál es la salida de este código en Python?",
+    "code": "x = 7\nif x > 5:\n    print('Mayor que 5')\nelse:\n    print('Menor o igual que 5')",
+    "answers": [
+      "'Mayor que 5'",
+      "'Menor o igual que 5'",
+      "'Mayor o igual que 5'",
+      "Error de sintaxis"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Cuál es el valor de la variable `x` después de ejecutar este código en Python?",
+    "code": "x = 10\nx //= 3",
+    "answers": ["3", "3.3333333333333335", "30", "3.0"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 33,
+    "question": "¿Cuál es el resultado de esta expresión en Python?",
+    "code": "10 != 5",
+    "answers": ["True", "False", "None", "Error de sintaxis"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "mi_lista = [1, 2, 3, 4, 5]\nmi_lista.insert(2, 99)",
+    "answers": [
+      "[1, 2, 99, 3, 4, 5]",
+      "[1, 2, 3, 4, 5, 99]",
+      "[1, 2, 3, 99, 4, 5]",
+      "[1, 2, 3, 4, 99, 5]"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Cuál es el valor de `mi_diccionario['clave']` en Python?",
+    "code": "mi_diccionario = {'clave': 'valor'}",
+    "answers": ["'clave'", "'valor'", "'clave: valor'", "'valor'"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 36,
+    "question": "¿Cuál es la salida de este código en Python?",
+    "code": "mi_lista = [1, 2, 3, 4, 5]\nmi_lista.pop(2)\nprint(mi_lista)",
+    "answers": [
+      "[1, 2, 4, 5]",
+      "[1, 2, 3, 4, 5]",
+      "[1, 2, 4, 5, 3]",
+      "[1, 2, 4, 5] [3]"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "x = 5\ny = 2\nresultado = x ** y",
+    "answers": ["6", "8", "9", "5"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 38,
+    "question": "¿Qué imprimirá este código en Python?",
+    "code": "mi_string = 'Hola Mundo'\nprint(mi_string[-1::-1])",
+    "answers": ["'odnuM aloH'", "'Hola Mundo'", "'odnuM Hola'", "'aloH odnuM'"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "x = 5\ny = 3\nresultado = x / y",
+    "answers": ["1.6666666666666667", "2", "1.5", "2.0"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 40,
+    "question": "¿Qué tipo de variable es `mi_variable` en Python?",
+    "code": "mi_variable = 'Python'",
+    "answers": ["Entero", "Cadena", "Flotante", "Booleano"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 41,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "mi_string = 'Python'\nmi_string += ' es genial'\nprint(mi_string)",
+    "answers": [
+      "'Python es genial'",
+      "'Pythonesgenial'",
+      "'Python ' es genial'",
+      "'Python' ' ' 'es genial'"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Qué tipo de bucle se utiliza para ejecutar un bloque de código mientras se cumple una condición?",
+    "code": "i = 1\nloop i< 6\n    print(i)\n    i += 1",
+    "answers": ["for loop", "repeat loop", "do-while loop", "while loop"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 43,
+    "question": "¿Cuál es el resultado de esta expresión en Python?",
+    "code": "not True",
+    "answers": ["True", "False", "None", "Error de sintaxis"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 44,
+    "question": "¿Cuál es el valor de la variable `x` después de ejecutar este código en Python?",
+    "code": "x = 7\nif x > 5:\n    print('Mayor que 5')\nelse:\n    print('Menor o igual que 5')",
+    "answers": [
+      "'Mayor que 5'",
+      "'Menor o igual que 5'",
+      "'Mayor o igual que 5'",
+      "Error de sintaxis"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Cuál es el valor de la variable `x` después de ejecutar este código en Python?",
+    "code": "x = 10\nx //= 3",
+    "answers": ["3", "3.3333333333333335", "30", "3.0"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 46,
+    "question": "¿Cuál es el resultado de esta expresión en Python?",
+    "code": "10 != 5",
+    "answers": ["True", "False", "None", "Error de sintaxis"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 47,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "mi_lista = [1, 2, 3, 4, 5]\nmi_lista.insert(2, 99)",
+    "answers": [
+      "[1, 2, 99, 3, 4, 5]",
+      "[1, 2, 3, 4, 5, 99]",
+      "[1, 2, 3, 99, 4, 5]",
+      "[1, 2, 3, 4, 99, 5]"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Cuál es el valor de `mi_diccionario['clave']` en Python?",
+    "code": "mi_diccionario = {'clave': 'valor'}",
+    "answers": ["'clave'", "'valor'", "'clave: valor'", "'valor'"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 49,
+    "question": "¿Cuál es la salida de este código en Python?",
+    "code": "mi_lista = [1, 2, 3, 4, 5]\nmi_lista.pop(2)\nprint(mi_lista)",
+    "answers": [
+      "[1, 2, 4, 5]",
+      "[1, 2, 3, 4, 5]",
+      "[1, 2, 4, 5, 3]",
+      "[1, 2, 4, 5] [3]"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Cuál es el resultado de este código en Python?",
+    "code": "x = 5\ny = 3\nresultado = x / y",
+    "answers": ["1.6666666666666667", "2", "1.5", "2.0"],
+    "correctAnswer": 2
+  }
+]

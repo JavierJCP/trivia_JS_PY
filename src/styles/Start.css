@@ -1,0 +1,16 @@
+.language {
+  margin-top: 5rem;
+  padding: 0 3rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  & div {
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+  }
+  @media (width < 500px) {
+    flex-direction: column;
+  }
+}
